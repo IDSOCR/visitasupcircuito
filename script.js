@@ -10,14 +10,18 @@ function cerrarMenu() {
     document.getElementById("fondoOscuro").style.display = "none";
 }
 
-/* Función para validar el acceso a la página del Superintendente */
 function solicitarPassword() {
     var password = prompt("Ingrese la contraseña de seguridad:");
     
+    // Validación para el Superintendente
     if (password === "1914#2026") {
         window.location.href = "superintendente.html";
-    } else if (password !== null) { 
-        /* Verifica que el usuario no haya presionado "Cancelar" */
+    } 
+    // Nueva validación para Conmemoración
+    else if (password === "C#2026") {
+        window.location.href = "conm2026.html";
+    } 
+    else if (password !== null) { 
         alert("Contraseña incorrecta. Acceso denegado.");
     }
 }
