@@ -173,3 +173,44 @@ li { margin-bottom: 8px; font-size: 0.95rem; line-height: 1.4; }
     background-color: rgba(0, 0, 0, 0.5); /* Negro con 50% de opacidad */
     z-index: 998; /* Justo debajo del menú (z-index: 1000) y el botón (z-index: 999) */
 }
+
+/* para index de zoom
+
+/* Botón para copiar texto */
+.btn-copiar {
+    background-color: #f0f0f0;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 0.85em;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: background-color 0.2s;
+    color: #333333;
+}
+
+.btn-copiar:hover {
+    background-color: #e0e0e0;
+}
+
+/* Botón principal para ingresar a Zoom */
+.btn-zoom {
+    display: inline-block;
+    background-color: #2D8CFF; /* Azul característico de plataformas de video */
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-zoom:hover {
+    background-color: #1a73e8;
+    transform: translateY(-2px);
+    color: #ffffff;
+}
