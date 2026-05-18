@@ -1,6 +1,18 @@
+/* Prueba visual rápida - Borrar después */
+.btn-zoom {
+    background-color: red !important;
+    border: 5px solid yellow !important;
+    color: white !important;
+    padding: 20px !important;
+}
+
+
+
 /* =========================================
    ESTILOS GENERALES (Diseño original)
    ========================================= */
+
+
 body { 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     background-color: #f4f4f9; 
