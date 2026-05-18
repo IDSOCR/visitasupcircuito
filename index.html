@@ -3,159 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visita Sup Circuito 17-22 marzo 2026</title>
+    <title>Actividades por Zoom</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<div id="miMenuLateral" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="cerrarMenu()">&times;</a>
-    <a href="#" onclick="solicitarPassword()">Superintendente</a>
-    <a href="#" onclick="solicitarPassword()">Conmemoración</a> <a href="index.html">Ancianos</a>
-    <a href="index.html">Otros</a>
-</div>
-    
-    <div id="fondoOscuro" onclick="cerrarMenu()"></div>
-    
-    <div id="main">
-        <button class="openbtn" onclick="abrirMenu()">&#9776;</button>
+    <div class="container">
+        <div class="header">
+            <h1>Actividades por Zoom de la congregación</h1>
+        </div>
 
-        <div class="container">
-            <div class="header">
-                <img src="Portada.png" alt="Imagen de encabezado">
-                <h1>Congregación Carpintera-San Rafael, Cart. (1461)</h1>
-                <p>Visita Sup de Circuito Erick y Katherine Bent</p>
-                <h1>17-22 marzo 2026</h1>
+        <!-- Sección: Reuniones de congregación -->
+        <div class="section">
+            <h2 class="section-title bg-entre-semana">Reuniones de congregación</h2>
+            <div class="section-content">
+                <p>
+                    <strong>ID de reunión:</strong> <span id="id-reunion">836 8013 3440</span> 
+                    <button class="btn-copiar" onclick="copiarTexto('id-reunion')">Copiar</button>
+                </p>
+                <p>
+                    <strong>Código de acceso:</strong> <span id="pass-reunion">206064</span> 
+                    <button class="btn-copiar" onclick="copiarTexto('pass-reunion')">Copiar</button>
+                </p>
+                <br>
+                <a href="https://jworg.zoom.us/meetings/83680133440/invitations?signature=2KA7akWB-2hvczNYEv_ur9Co0wLPdWQRs7AoWzVidzk" target="_blank" class="btn-zoom">Ingresar a Zoom</a>
             </div>
+        </div>
 
-            <div class="section">
-                <h2 class="section-title bg-entre-semana">Reunión de Entre Semana</h2>
-                <div class="section-content">
-                    <p><strong>17 de marzo de 2026 | ISAÍAS 45-47</strong><br>
-                    <em>Presidente / Oración:</em> Rodriguez, Juan Carlos V.</p>
-                    <ul>
-                        <li><span class="item-title">Canción 2:</span> Tu nombre es Jehová</li>
-                        <li>Palabras de Introducción</li>
-                    </ul>
-                    
-                    <div class="subsection-title text-tesoros">TESOROS DE LA BIBLIA</div>
-                    <ul>
-                        <li><strong>1.</strong> "Yo soy Dios, y no hay nadie como yo" (10 mins.) - Vega Vega, Jorge E.</li>
-                        <li><strong>2.</strong> Busquemos perlas escondidas (10 mins.) - Obando Morales, Danier A.</li>
-                        <li><strong>3.</strong> Lectura de la Biblia (4 mins.) - Salazar Alvarado, Minor G.</li>
-                    </ul>
-                    
-                    <div class="subsection-title text-maestros">SEAMOS MEJORES MAESTROS</div>
-                    <ul>
-                        <li><strong>4.</strong> Empiece conversaciones (3 mins.) - Nuñez Vargas, Carlos / Miranda Ramirez, Christian E.</li>
-                        <li><strong>5.</strong> Haga revisitas (4 mins.) - Jiménez Mendoza, Loyde N. de / Amador Ureña, Marcia M. de</li>
-                        <li><strong>6.</strong> Haga discípulos (5 mins.) - Cortés Villalobos, Josué E. / Vega Alvarado, Dilan E.</li>
-                    </ul>
-                    
-                    <div class="subsection-title text-vida">NUESTRA VIDA CRISTIANA</div>
-                    <ul>
-                        <li><span class="item-title">Canción 38:</span> Jehová te cuidará</li>
-                        <li><strong>7.</strong> Jehová es el único que siempre nos puede ayudar (7 mins.) - Nuñez Vega, Carlos</li>
-                        <li><strong>8. 2026 |</strong> Informe sobre la actividad del Departamento Local de Diseño y Construcción (8 mins.) - Solera Quesada, Ibhar D.</li>
-                        <li>Palabras de conclusión</li>
-                        <li>¿Qué está dispuesto a hacer "por las buenas noticias"? - Erick Bent</li>
-                        <li><span class="item-title">Canción 127:</span> La clase de persona que debo ser | <strong>Oración</strong></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="section">
-                <h2 class="section-title bg-especiales">Reuniones Especiales</h2>
-                <div class="section-content">
-                    <p><strong>Lugar:</strong> Salón del Reino | <strong>Hora:</strong> 7:00 PM</p>
-                    <ul>
-                        <li><strong>Miércoles:</strong> Precursores Regulares y Auxiliares</li>
-                        <li><strong>Viernes:</strong> Ancianos y Siervos Ministeriales</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="section">
-                <h2 class="section-title bg-precursores">Precursores Auxiliares aprobados:</h2>
-                <div class="section-content">
-                    <div class="subsection-title text-precursores">Marzo 2026</div>
-                    <ol class="lista-precursores">
-                        <li>Nuria Jiménez</li>
-                        <li>Vera Villalobos</li>
-                        <li>Massiel Osejo</li>
-                        <li>Carmen Pia</li>
-                    </ol>
-                    
-                    <div class="subsection-title text-precursores">Marzo y Abril 2026</div>
-                    <ol class="lista-precursores">
-                        <li>Marta Villachica</li>
-                        <li>Giselle Villachica</li>
-                        <li>Carlos Nuñez Vargas</li>
-                        <li>Carlos Nuñez Vega</li>
-                        <li>Cristian Miranda</li>
-                        <li>Tatiana Solera</li>
-                        <li>Ibhar Solera</li>
-                        <li>Ruth Jiménez</li>
-                        <li>José Rivera</li>
-                        <li>Loyde Jiménez</li>
-                        <li>Evangelina Jiménez</li>
-                        <li>Luz Solano</li>
-                    </ol>
-                </div>
-            </div>
-
-            <div class="section">
-                <h2 class="section-title bg-servicio">Servicio del Campo</h2>
-                <div class="section-content service-grid">
-                    <div class="service-card">
-                        <strong>Miércoles | 9:00 AM | Familia Obando</strong>
-                        Territorio: Terminar 3 y 4, 5 | Auxiliar: Dilan Vega
-                    </div>
-                    <div class="service-card">
-                        <strong>Miércoles | 3:00 PM | Salón del Reino</strong>
-                        Territorio: Predicación, Estudios y revisitas | Auxiliar: Jorge Vega
-                    </div>
-                    <div class="service-card">
-                        <strong>Jueves | 9:00 AM | Salón del Reino</strong>
-                        Territorio: 8 | Auxiliar: Juan Carlos Rodriguez
-                    </div>
-                    <div class="service-card">
-                        <strong>Jueves | 3:00 PM | Salón del Reino</strong>
-                        Territorio: Predicación, Estudios y revisitas | Auxiliar: Dilan Vega
-                    </div>
-                    <div class="service-card">
-                        <strong>Viernes | 9:00 AM | Casa Fam Núñez</strong>
-                        Territorio: 10 y 11 | Auxiliar: José Rivera
-                    </div>
-                    <div class="service-card">
-                        <strong>Viernes | 3:00 PM | Casa Fam Núñez</strong>
-                        Territorio: Predicación, Estudios y revisitas | Auxiliar: Josué Cortes.
-                    </div>
-                    <div class="service-card">
-                        <strong>Sábado | 9:30 AM | Casa Fam Solera</strong>
-                        Territorio: 12 y 13 | Auxiliar: Danier Obando
-                    </div>
-                    <div class="service-card">
-                        <strong>Domingo | 11:30 AM | Salón del Reino</strong>
-                        Territorio: 32 y 33 | Auxiliar: Ibhar Solera
-                    </div>
-                </div>
-            </div>
-
-            <div class="section">
-                <h2 class="section-title bg-fin-semana">Reunión de Fin de Semana</h2>
-                <div class="section-content">
-                    <p><strong>Domingo 22 de marzo | 9:30 AM</strong><br>
-                    <em>Presidente:</em> Obando Morales, Danier A.</p>
-                    <ul>
-                        <li><span class="item-title">Canción 142</span></li>
-                        <li><strong>DISCURSO PÚBLICO DE LA VISITA:</strong> Como cosechar vida eterna - Erick Ben</li>
-                        <li><span class="item-title">Canción 20:</span></li>
-                        <li>Estudio de la Atalaya abreviado - Rodriguez, Juan Carlos V.</li>
-                        <li><strong>DISCURSO FINAL DE LA VISITA:</strong> ¿Domina usted el idioma puro? - Erick Bent</li>
-                        <li><span class="item-title">Canción final 159</span></li>
-                    </ul>
-                </div>
+        <!-- Sección: Predicación -->
+        <div class="section">
+            <h2 class="section-title bg-servicio">Predicación</h2>
+            <div class="section-content">
+                <p>
+                    <strong>ID de reunión:</strong> <span id="id-predicacion">891 9017 9967</span> 
+                    <button class="btn-copiar" onclick="copiarTexto('id-predicacion')">Copiar</button>
+                </p>
+                <p>
+                    <strong>Código de acceso:</strong> <span id="pass-predicacion">533029</span> 
+                    <button class="btn-copiar" onclick="copiarTexto('pass-predicacion')">Copiar</button>
+                </p>
+                <br>
+                <a href="https://jworg.zoom.us/meetings/89190179967/invitations?signature=8R34IIEL_2zGtizDIAQYsfIFaPx8QCX1ZmTSs5y6YKM" target="_blank" class="btn-zoom">Ingresar a Zoom</a>
             </div>
         </div>
     </div>
