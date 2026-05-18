@@ -25,3 +25,12 @@ function solicitarPassword() {
         alert("Contraseña incorrecta. Acceso denegado.");
     }
 }
+
+function copiarTexto(idElemento) {
+    const texto = document.getElementById(idElemento).innerText;
+    navigator.clipboard.writeText(texto).then(() => {
+        alert("Texto copiado: " + texto);
+    }).catch(err => {
+        console.error("Error al copiar el texto: ", err);
+    });
+}
